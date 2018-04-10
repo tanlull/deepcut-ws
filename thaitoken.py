@@ -15,8 +15,8 @@ def tokenize():
 	if request.method == 'POST':
 		data = request.form['source']
 	elif request.method == 'GET':
-		data = request.args.get('source')
-	return thaitoken_deepcut(data);
+		data = request.args.get('source')	
+	return thaitoken_deepcut(data)
 
 
 def thaitoken_deepcut(data):
@@ -37,4 +37,5 @@ def about():
 	
 if __name__ == "__main__":
     #app.debug = True
-    app.run(host = '0.0.0.0',port=process.env.PORT )
+	from os import environ
+	app.run(host='0.0.0.0', , port=environ.get("PORT", 5000))
