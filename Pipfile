@@ -1,0 +1,9 @@
+[packages]
+flask = "*"
+requests = "*"
+deepcut = "*"
+jsonify = "*"
+tensorflow = "*"
+
+[requires]
+python_version = "3.6"
