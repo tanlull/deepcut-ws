@@ -3,7 +3,7 @@ deepcut webservice
 
 ## Prerequisites: 
 ```
-pip install deepcut flask tensorflow
+pip install deepcut flask tensorflow requests jsonify
 ```
 
 ## run :
