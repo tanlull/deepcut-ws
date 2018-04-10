@@ -2,6 +2,8 @@
 deepcut webservice
 
 ## Prerequisites: 
+1. python 3.6
+2. library
 ```
 pip install deepcut flask tensorflow requests jsonify
 ```
