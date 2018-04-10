@@ -13,5 +13,5 @@ python thaitoken.py
 
 ## test : 
 ```
-http://localhost:5000/tokenize?source=
+http://localhost:5000/tokenize?source=เสือดำนาฬิกาป่าไม้ละครไทยก็สนุกบุพเพสันนิวาสแม่การะเกดขุนเดชเจ้าพระยาโกษาปาน
 ```
