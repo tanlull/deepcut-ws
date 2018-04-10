@@ -1,17 +1,17 @@
 # deepcut-ws
 deepcut webservice
 
-##Prerequisites: 
+## Prerequisites: 
 ```
 pip install deepcut flask tensorflow
 ```
 
-##run :
+## run :
 ```
 python thaitoken.py
 ```
 
-##test : 
+## test : 
 ```
 http://localhost:5000/tokenize?source=
 ```
