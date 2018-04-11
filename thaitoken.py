@@ -20,7 +20,7 @@ def tokenize():
 
 
 def thaitoken_deepcut(data):
-	token = deepcut.tokenize(data)
+	token = deepcut.tokenize(data,custom_dict='custom_dict.txt')
 	return jsonify(
 		source=data,
 		tokenize=token
